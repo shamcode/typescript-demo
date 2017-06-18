@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "target": "es5",
+    "typeRoots": [ "node_modules/@types/" ],
+    "types": [ "jquery" ]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

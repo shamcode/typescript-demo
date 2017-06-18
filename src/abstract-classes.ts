@@ -1,3 +1,8 @@
-/**
- * Created by apple on 12.06.17.
- */
+namespace AbstractClasses {
+    abstract class Animal {
+        abstract makeSound(): void;
+        move(): void {
+            console.log( "roaming the earth..." );
+        }
+    }
+}

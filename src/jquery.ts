@@ -1,3 +1,3 @@
-/**
- * Created by apple on 18.06.17.
- */
+namespace JqueryDemo {
+    const elem = $('.container').html();
+}
